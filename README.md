@@ -95,7 +95,7 @@ uniond keys show $KEY_NAME --address
 ```
 uniond keys show $KEY_NAME --bech=val --address
 ```
-> Test tokeni temin edebilirseniz validator oluşturma
+> Test tokeni temin ettiğinizde validator oluşturma
 ```
 uniond tx staking create-validator \
   --amount 1000000muno \
