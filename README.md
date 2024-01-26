@@ -75,7 +75,6 @@ services:
 ```
 ```
 docker compose up -d
-docker update --restart=unless-stopped union-node
 ```
 ```
 screen -S uni
