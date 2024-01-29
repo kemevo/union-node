@@ -30,7 +30,7 @@ echo 'export MONIKER="moniker_adınız"' >> ~/.bashrc
 echo 'export KEY_NAME=cuzdan_adi' >> ~/.bashrc
 echo 'export GENESIS_URL=union.testnet.4.seed.poisonphang.com:26657/genesis' >> ~/.bashrc
 echo 'export UNIOND_VERSION="v0.18.0"' >> ~/.bashrc
-echo 'alias uniond="docker run -v ~/.union:/.union --network host -it ghcr.io/unionlabs/uniond:v0.18.0 --home /.union"' >> ~/.bashrc
+echo 'alias uniond="docker run -v ~/.union:/.union -v /tmp:/tmp --network host -it ghcr.io/unionlabs/uniond-release:$UNIOND_VERSION --home /.union"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
